@@ -1,0 +1,33 @@
+
+
+ img {
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	width: 960px;
+	max-width: 100%;
+	padding: 20px;
+	margin: 0 auto;
+	background-color: rgba(117, 153, 51, 0.384);
+}
+
+	.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	/* flex-direction: row-reverse; */
+	flex-wrap: wrap;
+}
+.nav ul {
+	margin: 1em 0 .5em;
+	text-align: center;
+}
+.nav li {
+	display: inline;
+}
+.nav a {
+	display: inline-block;
+	padding: .5em 1.5em;
+}
